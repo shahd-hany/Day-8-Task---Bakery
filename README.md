@@ -1,31 +1,32 @@
 
 # Bakery Website
 
-A simple, responsive website for a fictional bakery business. Built using HTML, CSS, and Font Awesome icons.
+A responsive and modern website for a fictional family bakery. Built using HTML, CSS, Bootstrap, and Font Awesome.
 
 ## Key Features
 
-- Fixed navigation bar with logo and menu links
-- Hero section with prominent call-to-action buttons
-- About section describing the bakery
-- Interactive image overlays with descriptions
-- Our Location section with map embed
-- Baking section showcasing products
-- Contact section with map and contact details
-- Footer with company information and social media icons
-- Responsive and modern layout
+- Responsive layout using Bootstrap 5
+- Fixed transparent navigation bar with logo and menu links
+- Hero section with call-to-action buttons
+- About section with interactive image overlay
+- Our Location section with image and description
+- Baking section showcasing products with hover effects
+- Contact section with embedded Google Map and contact details
+- Footer with business info, social icons, and themed background
 
 ## Technologies Used
 
 - HTML5
-- CSS3
-- Font Awesome
-- Google Fonts
-- Responsive design techniques
+- CSS3 with variables and custom styles
+- Bootstrap 5
+- Font Awesome 6
+- Google Fonts (Alegreya & Alegreya Sans)
+- Google Maps embed
+- Responsive design principles
 
-## How To Use
+## How to Use
 
-To run this website locally:
+To run this project locally:
 
 1. Clone the repository:
 
@@ -41,22 +42,29 @@ To run this website locally:
 
 3. Open `index.html` in your browser.
 
-No build tools or installation required — it’s pure HTML/CSS.
+No build tools or frameworks required. All assets are linked via CDN or included in the project.
 
 ## Folder Structure
 
+```
 project/
 │
 ├── images/
-│   └── [all images used in the website]
+│   └── [all images and icons]
 │
 ├── webfonts/
-│   └── [custom font files]
+│   └── [custom fonts: Alegreya, Alegreya Sans]
 │
 ├── style/
-│   └── style.css
+│   ├── bootstrap.min.css
+│   ├── media.min.css
+│   └── style.min.css
+│
+├── JS/
+│   └── bootstrap.bundle.min.js
 │
 └── index.html
+```
 
 ## Meta Tags Included
 
@@ -72,13 +80,13 @@ project/
 
 ## Credits
 
-This website uses:
+This project uses:
 
-* [Font Awesome](https://fontawesome.com/)
+* Font Awesome for icons
 * Google Fonts: Alegreya, Alegreya Sans
-* Images from [Unsplash](https://unsplash.com/) and placeholders
-* Open source HTML/CSS techniques
+* Images from Unsplash and placeholders
+* Bootstrap 5 for layout and responsiveness
 
 ## License
 
-This project is open source and free to use under the [MIT License](LICENSE).
+This project is open-source and available under the [MIT License](LICENSE).
